@@ -1,0 +1,27 @@
+.header {
+  @apply relative bg-white;
+
+  .header-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6;
+
+    .header-content-wrapper {
+      @apply flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10;
+
+      .header-logo-wrapper {
+        @apply flex justify-start lg:w-0 lg:flex-1;
+
+        .header-logo {
+          @apply h-8 w-auto sm:h-10;
+        }
+      }
+
+      .btn-wrapper {
+        @apply md:flex items-center justify-end md:flex-1 lg:w-0;
+      }
+
+      .btn {
+        @apply ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-400 hover:bg-green-600;
+      }
+    }
+  }
+}
