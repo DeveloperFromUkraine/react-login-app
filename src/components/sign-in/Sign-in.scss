@@ -1,0 +1,28 @@
+.sign-in-form-container {
+  @apply w-full max-w-md;
+
+  .sign-in-form {
+    @apply bg-white shadow rounded px-8 py-8 pt-8;
+
+    .sign-in-form-input-wrapper {
+      @apply px-4 pb-4;
+
+      .sign-in-form-input-label {
+        @apply text-sm block font-bold pb-2;
+      }
+      .sig-in-form-input {
+        @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight border-green-400;
+
+        &.error {
+          @apply border-red-400;
+        }
+      }
+      .sign-in-form-input-error-message {
+        @apply text-sm block font-bold pb-2 pt-2 text-red-400;
+      }
+    }
+    .sing-in-form-button {
+      @apply text-white font-bold py-2 px-4 mx-4 rounded bg-green-500 hover:bg-green-600;
+    }
+  }
+}

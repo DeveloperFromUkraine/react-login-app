@@ -1,0 +1,9 @@
+.descending {
+  @apply w-4 h-4;
+  background-image: url("../../img/descending.svg");
+}
+
+.ascending {
+  @apply w-4 h-4;
+  background-image: url("../../img/ascending.svg");
+}
